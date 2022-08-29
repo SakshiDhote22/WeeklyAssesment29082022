@@ -1,0 +1,14 @@
+Setting Project path:--->  cd C:\Users\sakshi.dhote\eclipse-workspace\ExamDocker29082022
+
+Image Creation:---->    docker build -t spring-boot-docker-exam.jar
+
+Run Image:------>   docker run -p 9090:8080 spring-boot-docker-exam.jar
+
+tag image:------>  docker tag spring-boot-docker-exam.jar sakshidhote/spring-boot-docker-exam.jar
+
+Pushing image:----->  docker push spring-boot-docker-exam.jar sakshidhote/spring-boot-docker-exam.jar
+
+Pull image:----->   docker pull spring-boot-docker-exam.jar sakshidhote/spring-boot-docker-exam.jar
+
+run image:---->     docker run -p 9090:8080 sakshidhote/spring-boot-docker-exam.jar
+
